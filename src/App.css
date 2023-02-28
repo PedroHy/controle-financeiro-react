@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+.app{
+  padding: 5rem;
+}
+
+.app > div{
+    max-width: 95rem;
+    margin: auto;
+}
+
+.painel{
+  display: flex;
+  gap: 2rem;
+}

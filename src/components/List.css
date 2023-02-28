@@ -1,0 +1,44 @@
+.list{
+    margin-top: 2rem;
+    background-color: white;
+    width: 94rem;
+
+    padding: 2rem 5rem;
+    box-sizing: border-box;
+}
+
+#header{
+    font-weight: bold;
+}
+
+.line{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+i{
+    font-size: 2.2rem;
+    transition: .5s;
+}
+
+.ph-trash:hover{
+    font-size: 2.4rem;
+    transition: .5s;
+    color: red;
+}
+
+.ph-arrow-circle-up{
+    color: green;
+}
+
+.ph-arrow-circle-down{
+    color: red;
+}
+
+#divider{
+    height: .2rem;
+    background-color: rgba(37, 37, 37, 0.034);
+    margin: 2rem 0;
+}
